@@ -23,7 +23,11 @@ export default {
                 <p class="md:text-3xl text-2xl text-gray-400"> Find the Tailored Backend Job or the Perfect Backend Talent.
                 </p>
             </div>
-            <JobSelection />
+
+            <div class="flex w-full">
+
+                <JobSelection />
+            </div>
         </div>
         <div class="col-span-1 hidden md:flex p-16 h-full bg-primaryColor lg:relative rounded-tl-[7rem] rounded-br-[7rem]">
             <div class="flex flex-col  h-full justify-between w-full lg:absolute">
