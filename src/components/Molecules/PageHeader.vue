@@ -54,7 +54,8 @@ export default {
                     <router-link to="/faq" class="hover:border-b-4 p border-primaryColor">Faq</router-link>
                     <router-link to="/login" class="hover:border-b-4 p border-primaryColor">Login</router-link>
                 </div>
-                <PageButton />
+                <ButtonComponent />
+
 
             </div>
             <!-- Close Button for Mobile Menu -->
@@ -64,7 +65,6 @@ export default {
                     <path
                         d="M3.71 3.71a1.02 1.02 0 0 1 1.42 0L12 10.59l7.88-7.88a1.02 1.02 0 0 1 1.42 1.42L13.41 12l7.88 7.88a1.02 1.02 0 0 1-1.42 1.42L12 13.41l-7.88 7.88a1.02 1.02 0 0 1-1.42-1.42L10.59 12 2.71 4.12a1.02 1.02 0 0 1 0-1.41z" />
                 </svg>
-
 
             </div>
         </div>

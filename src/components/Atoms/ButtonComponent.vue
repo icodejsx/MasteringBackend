@@ -6,7 +6,7 @@ export default {
 
 
 <template>
-    <button class="text-xl flex  bg-primaryColor text-white px-5 py-2 rounded-xl">
+    <button class="mdtext-xl flex px-3 py-3 bg-primaryColor text-white md:px-5 md:py-2 rounded-xl">
         Register now
     </button>
 </template>
