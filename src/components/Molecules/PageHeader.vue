@@ -1,10 +1,10 @@
 <script lang="ts">
-import PageButton from '../Atoms/PageButton.vue'
+import ButtonComponent from '../Atoms/ButtonComponent.vue'
 
 export default {
     name: 'PageHeader',
     components: {
-        PageButton
+        ButtonComponent
     },
     data() {
         return {
@@ -40,7 +40,7 @@ export default {
                 <router-link to="/faq" class="hover:border-b-4 p- border-primaryColor">Faq</router-link>
                 <router-link to="/login" class="hover:border-b-4 p- border-primaryColor">Login</router-link>
             </div>
-            <PageButton />
+            <ButtonComponent />
         </div>
 
         <!-- Mobile Menu (Dynamic) -->

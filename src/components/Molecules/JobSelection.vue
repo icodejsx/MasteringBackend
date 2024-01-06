@@ -1,8 +1,8 @@
 <script lang="ts">
-import PageButton from '../Atoms/PageButton.vue';
+import ButtonComponent from '../Atoms/ButtonComponent.vue';
 
 export default {
-  components: { PageButton },
+  components: { ButtonComponent },
   name: 'JobSelection',
 };
 </script>
@@ -27,6 +27,6 @@ export default {
         <option value="DE">Germany</option>
       </select>
     </div>
-    <PageButton />
+    <ButtonComponent />
   </div>
 </template>

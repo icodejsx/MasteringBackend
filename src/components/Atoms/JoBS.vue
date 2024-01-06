@@ -1,9 +1,9 @@
 <script lang="ts">
 
-import PageButton from './PageButton.vue';
+import ButtonComponent from './ButtonComponent.vue';
 
 export default {
-    components: { PageButton },
+    components: { ButtonComponent },
     name: "JobS",
 
 
@@ -30,7 +30,7 @@ export default {
                 <h1 class="font-medium text-2xl text-secondaryColor">$4000</h1>
                 <P class="text-xs text-gray-400">/month</P>
             </div>
-            <page-button />
+            <ButtonComponent />
         </div>
     </div>
 </template>

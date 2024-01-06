@@ -1,8 +1,8 @@
 <script lang="ts">
 import JoBS from '../Atoms/JoBS.vue'
-import PageButton from '../Atoms/PageButton.vue';
+import ButtonComponent from '../Atoms/ButtonComponent.vue';
 export default {
-    components: { JoBS, PageButton },
+    components: { JoBS, ButtonComponent },
     name: "PopularJobs"
 }
 </script>
@@ -27,7 +27,7 @@ export default {
         </div>
 
 
-        <page-button />
+        <ButtonComponent />
 
     </div>
 </template>

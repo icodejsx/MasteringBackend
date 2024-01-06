@@ -1,9 +1,9 @@
 <script lang="ts">
-import PageButton from '../Atoms/PageButton.vue';
+import ButtonComponent from '../Atoms/ButtonComponent.vue';
 
 
 export default {
-    components: { PageButton, PageButton },
+    components: { ButtonComponent },
     name: "GuildingYou"
 }
 </script>
@@ -43,7 +43,7 @@ export default {
             </div>
             <div class="flex">
 
-                <PageButton />
+                <ButtonComponent />
             </div>
 
 
